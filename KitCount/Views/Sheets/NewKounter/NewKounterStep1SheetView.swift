@@ -1,15 +1,8 @@
-//
-//  KounterNewSheetView.swift
-//  KitCount
-//
-//  Created by Marconi Gomes on 11/09/22.
-//
-
 import SwiftUI
 
 struct NewKounterStep1SheetView: View {
     @State
-    private var kounterName: String = ""
+    private var kounterData = NewKounterData.empty()
     
     @State
     private var hasHitNextStep: Bool? = false
@@ -20,32 +13,36 @@ struct NewKounterStep1SheetView: View {
                 Image(systemName: "character.cursor.ibeam")
                     .resizable()
                     .scaledToFit()
-                    .padding(100)
                     .foregroundColor(Color.blue)
+                    .padding(.vertical, 100)
+                    .frame(width: 150)
                 
                 VStack {
                     Text("Name your counter")
                         .font(.title)
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    
-                    TextField(
-                        "E.g. Days I went to the gym",
-                        text: $kounterName
-                    )
-                    .submitLabel(.done)
-                    .textFieldStyle(.roundedBorder)
+                        .padding(.vertical, 5)
                     
                     Text("This will be the displayed name for your counter on the list, details and home screen widgets.")
                         .font(.caption)
                         .foregroundColor(.secondary)
                         .frame(maxWidth: .infinity, alignment: .leading)
+
+                    VStack {
+                        TextField(
+                            "E.g. Days I went to the gym",
+                            text: $kounterData.name
+                        )
+                        .submitLabel(.done)
+                        .textFieldStyle(.roundedBorder)
+                    }
+                    .frame(maxHeight: .infinity, alignment: .center)
                     
                     Spacer()
                     
-                    
                     NavigationLink(
-                        destination: NewKounterStep2SheetView(kounterName: kounterName),
+                        destination: NewKounterStep2SheetView(kounterData: kounterData),
                         tag: true,
                         selection: $hasHitNextStep,
                         label: { EmptyView() }
@@ -60,17 +57,20 @@ struct NewKounterStep1SheetView: View {
                         .cornerRadius(8)
                 }
             }
-            .padding(.horizontal, 50)
+            .padding(.horizontal, 20)
+            .padding(.vertical, 10)
             .ignoresSafeArea(.keyboard, edges: .bottom)
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-        }
-        .onTapGesture {
-            self.hideKeyboard()
+            .navigationViewStyle(.stack)
+            .navigationTitle("Name")
+            .navigationBarTitleDisplayMode(.inline)
+            .onTapGesture {
+                self.hideKeyboard()
+            }
         }
     }
     
     var kounterNameIsValid: Bool {
-        return !kounterName.isEmpty
+        return !kounterData.name.isEmpty
     }
     
     var buttonBackgroundColor: Color {

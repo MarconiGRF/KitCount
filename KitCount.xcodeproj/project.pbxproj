@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B109E47328C6FE14006E5B26 /* Kounter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B109E47128C6FE14006E5B26 /* Kounter+CoreDataClass.swift */; };
 		B109E47428C6FE14006E5B26 /* Kounter+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B109E47228C6FE14006E5B26 /* Kounter+CoreDataProperties.swift */; };
+		B12A434F28F4FD3800785468 /* NewKounterStep4SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A434E28F4FD3800785468 /* NewKounterStep4SheetView.swift */; };
+		B12A435128F4FFDB00785468 /* NewKountarStep2SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A435028F4FFDB00785468 /* NewKountarStep2SheetView.swift */; };
 		B1434EAF28C29B8800441CAD /* KitCountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1434EAE28C29B8800441CAD /* KitCountApp.swift */; };
 		B1434EB128C29B8800441CAD /* KounterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1434EB028C29B8800441CAD /* KounterListView.swift */; };
 		B1434EB328C29B8800441CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1434EB228C29B8800441CAD /* Assets.xcassets */; };
@@ -21,7 +23,8 @@
 		B1502D8428C94EB1004169CA /* UtilsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1502D8328C94EB1004169CA /* UtilsExtensions.swift */; };
 		B1589BA828CD783C00D64F08 /* KounterListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1589BA728CD783C00D64F08 /* KounterListEntry.swift */; };
 		B1592DB128C799B600E3B3DE /* KounterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1592DB028C799B600E3B3DE /* KounterDetailsView.swift */; };
-		B19AC5B128D55398006B93B7 /* NewKounterStep2SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19AC5B028D55398006B93B7 /* NewKounterStep2SheetView.swift */; };
+		B19AC5B128D55398006B93B7 /* NewKounterStep3SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19AC5B028D55398006B93B7 /* NewKounterStep3SheetView.swift */; };
+		B19E14C128F4F42D0026276A /* NewKounterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19E14C028F4F42D0026276A /* NewKounterData.swift */; };
 		B1FA283A28CE1BD700BA0C99 /* NewKounterStep1SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA283928CE1BD700BA0C99 /* NewKounterStep1SheetView.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,8 @@
 /* Begin PBXFileReference section */
 		B109E47128C6FE14006E5B26 /* Kounter+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kounter+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B109E47228C6FE14006E5B26 /* Kounter+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kounter+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B12A434E28F4FD3800785468 /* NewKounterStep4SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKounterStep4SheetView.swift; sourceTree = "<group>"; };
+		B12A435028F4FFDB00785468 /* NewKountarStep2SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKountarStep2SheetView.swift; sourceTree = "<group>"; };
 		B1434EAB28C29B8800441CAD /* KitCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1434EAE28C29B8800441CAD /* KitCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitCountApp.swift; sourceTree = "<group>"; };
 		B1434EB028C29B8800441CAD /* KounterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KounterListView.swift; sourceTree = "<group>"; };
@@ -60,7 +65,8 @@
 		B1502D8328C94EB1004169CA /* UtilsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsExtensions.swift; sourceTree = "<group>"; };
 		B1589BA728CD783C00D64F08 /* KounterListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KounterListEntry.swift; sourceTree = "<group>"; };
 		B1592DB028C799B600E3B3DE /* KounterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KounterDetailsView.swift; sourceTree = "<group>"; };
-		B19AC5B028D55398006B93B7 /* NewKounterStep2SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKounterStep2SheetView.swift; sourceTree = "<group>"; };
+		B19AC5B028D55398006B93B7 /* NewKounterStep3SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKounterStep3SheetView.swift; sourceTree = "<group>"; };
+		B19E14C028F4F42D0026276A /* NewKounterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKounterData.swift; sourceTree = "<group>"; };
 		B1FA283928CE1BD700BA0C99 /* NewKounterStep1SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewKounterStep1SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +129,7 @@
 		B1434EAD28C29B8800441CAD /* KitCount */ = {
 			isa = PBXGroup;
 			children = (
+				B19E14BF28F4F4060026276A /* Utils */,
 				B1E0B2F628C9812F002D0EE6 /* Assets */,
 				B1502D8228C94EA0004169CA /* Extensions */,
 				B1592DAF28C799A200E3B3DE /* Views */,
@@ -189,9 +196,19 @@
 			isa = PBXGroup;
 			children = (
 				B1FA283928CE1BD700BA0C99 /* NewKounterStep1SheetView.swift */,
-				B19AC5B028D55398006B93B7 /* NewKounterStep2SheetView.swift */,
+				B12A435028F4FFDB00785468 /* NewKountarStep2SheetView.swift */,
+				B19AC5B028D55398006B93B7 /* NewKounterStep3SheetView.swift */,
+				B12A434E28F4FD3800785468 /* NewKounterStep4SheetView.swift */,
 			);
 			path = NewKounter;
+			sourceTree = "<group>";
+		};
+		B19E14BF28F4F4060026276A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B19E14C028F4F42D0026276A /* NewKounterData.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		B1E0B2F628C9812F002D0EE6 /* Assets */ = {
@@ -343,14 +360,17 @@
 				B1434EB828C29B8800441CAD /* PersistenceController.swift in Sources */,
 				B1502D8428C94EB1004169CA /* UtilsExtensions.swift in Sources */,
 				B109E47428C6FE14006E5B26 /* Kounter+CoreDataProperties.swift in Sources */,
+				B12A434F28F4FD3800785468 /* NewKounterStep4SheetView.swift in Sources */,
 				B1434EB128C29B8800441CAD /* KounterListView.swift in Sources */,
 				B109E47328C6FE14006E5B26 /* Kounter+CoreDataClass.swift in Sources */,
 				B1589BA828CD783C00D64F08 /* KounterListEntry.swift in Sources */,
+				B12A435128F4FFDB00785468 /* NewKountarStep2SheetView.swift in Sources */,
 				B1FA283A28CE1BD700BA0C99 /* NewKounterStep1SheetView.swift in Sources */,
 				B1592DB128C799B600E3B3DE /* KounterDetailsView.swift in Sources */,
-				B19AC5B128D55398006B93B7 /* NewKounterStep2SheetView.swift in Sources */,
+				B19AC5B128D55398006B93B7 /* NewKounterStep3SheetView.swift in Sources */,
 				B1434EBB28C29B8800441CAD /* KitCount.xcdatamodeld in Sources */,
 				B1434EAF28C29B8800441CAD /* KitCountApp.swift in Sources */,
+				B19E14C128F4F42D0026276A /* NewKounterData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
