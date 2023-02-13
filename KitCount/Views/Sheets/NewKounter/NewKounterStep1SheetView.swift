@@ -12,7 +12,7 @@ struct NewKounterStep1SheetView: View {
             VStack {
                 Image(systemName: "character.cursor.ibeam")
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
                     .foregroundColor(Color.blue)
                     .padding(.vertical, 100)
                     .frame(width: 150)
